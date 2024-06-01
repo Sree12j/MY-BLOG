@@ -48,6 +48,7 @@
 }
 .secondcontainer{
     width: 40%;
+  
 }
 .profilecontainer{
 background-color:#fff;
@@ -71,15 +72,17 @@ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);  
 }
 .tags{
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);  
+    padding: 20px;
     margin: 50px;
 }
 .tags h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .tags p{
-    word-spacing: 4px;
+    word-spacing:3px;
     font-size: 17px;
-
 }
 footer {
  background-color:grey;
@@ -136,5 +139,8 @@ footer button{
         .profilecontainer{
              margin: 40px 0px;
          }
+         .tags{
+            margin: 0px;
+        }
     }
     
