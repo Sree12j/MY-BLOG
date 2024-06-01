@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container .navbar{
+    text-align: center;
+    margin-bottom: 34px;
+    font-family:Arial, Helvetica, sans-serif;  
+}
+.main-container {
+    margin-top: 40px;
+}
+.main-container .navbar h1{
+    margin-bottom: 13px;
+    font-size: 30px;
+}
+.wrapper{
+    display: flex;
+    padding: 70px;
+}
+.firstcontainer{
+    width: 60%;
+}
+.contentcontainer{
+    width: 100%;
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+
+}
+.contentcontainer .text{
+    padding: 40px;
+   
+}
+.contentcontainer .text h1,h3,p,button{
+    margin-top: 20px;
+}
+
+.contentcontainer .imgcontainer{
+    width: 100%;
+}
+.contentcontainer .imgcontainer img{
+    background-color: black;
+    width: 100%;
+  
+}
+.secondcontainer{
+    width: 40%;
+}
+.profilecontainer{
+background-color:#fff;
+box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+ margin: 100px 50px;
+}
+
+.profilecontainer  .imgcontainer{
+    width:100%;
+ 
+}
+.profilecontainer  .imgcontainer img{
+    width: 100%;
+   
+}
+.profilecontainer  .text{
+    padding: 20px;
+}
+.popularposts{
+    background-color: rgb(243, 252, 249);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);  
+}
+.tags{
+    margin: 50px;
+}
+.tags h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tags p{
+    word-spacing: 4px;
+    font-size: 17px;
+
+}
+footer {
+ background-color:grey;
+ width: 100%;
+ padding: 20px;
+position: relative;
+}
+footer button{
+  margin-right: 8px;
+   padding: 15px;
+   border-radius:3px;
+   border: none;
+}
+.btn{
+    background-color: rgb(74, 72, 72);
+}
+.btn:hover{
+    background-color:rgba(255, 255, 255,0.1)
+}
+.comment{
+    float: right;
+    margin-top: 30px;
+}
+ 
+.demo{
+    background-color: black;
+    color: white;
+    padding:5px;
+    border-radius:50%;
+    margin:4px;
+}
+.text button{
+    padding: 11px;
+    background-color: #fff;
+    outline: none;
+
+}
+
+@media(max-width:800px) {
+    .wrapper{
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .firstcontainer{
+        width: 100%;
+    }
+    .secondcontainer{
+        width: 100%;
+    }
+    .comment{
+           margin-top: 30px;
+        }
+        .profilecontainer{
+             margin: 40px 0px;
+         }
+    }
+    
